@@ -3,7 +3,7 @@
 ##
 image:
   repository: swaggerapi/swagger-ui
-  tag: v3.24.3
+  tag: v4.15.5
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
