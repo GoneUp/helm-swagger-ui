@@ -1,10 +1,9 @@
 # Helm Chart for swagger-ui
-
-[![CircleCI](https://circleci.com/gh/cetic/helm-swagger-ui.svg?style=svg)](https://circleci.com/gh/cetic/helm-swagger-ui/tree/master) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) ![version](https://img.shields.io/github/tag/cetic/helm-swagger-ui.svg?label=release)
-
 ## Introduction
 
 This [Helm](https://github.com/kubernetes/helm) chart installs [swagger-ui](https://github.com/swagger-ui-api/swagger-ui) in a Kubernetes cluster.
+
+Fork from https://github.com/cetic/helm-swagger-ui, the only changes are a updated ingress and support for JSON URLs.
 
 ## Prerequisites
 
@@ -17,7 +16,7 @@ This [Helm](https://github.com/kubernetes/helm) chart installs [swagger-ui](http
 ### Add Helm repository
 
 ```bash
-helm repo add cetic https://cetic.github.io/helm-charts
+helm repo add x
 helm repo update
 ```
 
@@ -37,7 +36,7 @@ The following items can be set via `--set` flag during installation or configure
 Install the swagger-ui helm chart with a release name `my-release`:
 
 ```bash
-helm install --name my-release cetic/swaggerui
+helm install --name my-release x
 ```
 
 ## Uninstallation
