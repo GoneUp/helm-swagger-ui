@@ -15,7 +15,7 @@ jobs:
       uses: bsord/helm-push@v4.2
       with:
         useOCIRegistry: true
-        registry-url:  oci://ghcr.io/${{ github.repository }}
+        registry-url:  oci://ghcr.io/goneup/helm-swagger-ui
         username: ${{ github.repository_owner }}
         access-token: ${{ secrets.GITHUB_TOKEN }}
         force: true
