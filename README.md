@@ -77,6 +77,7 @@ The following table lists the configurable parameters of the swagger-ui chart an
 | `service.annotations`                                                       | Service annotations                                                                                                | `{}`                            |
 | **Ingress**                                                                 |
 | `ingress.enabled`                                                           | Enables Ingress                                                                                                    | `false`                         |
+| `ingress.className`                                                         | Ingress class Name                                                                                                 | `""`                            |
 | `ingress.annotations`                                                       | Ingress annotations                                                                                                | `{}`                            |
 | `ingress.path`                                                              | Path to access frontend                                                                                            | `/`                             |
 | `ingress.hosts`                                                             | Ingress hosts                                                                                                      | `[]`                            |
